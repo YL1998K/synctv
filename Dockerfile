@@ -1,5 +1,7 @@
 FROM alpine:latest as builder
 
+ARG GOARCH=adm64
+
 ARG VERSION=dev
 
 ARG SKIP_INIT_WEB
